@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.bjsxt.servlet.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-patern>/login</url-patern>
+		<url-patern>/g</url-patern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>reg</servlet-name>
+		<servlet-class>com.bjsxt.servlet.RegisterServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>reg</servlet-name>
+		<url-patern>/reg</url-patern>
+	</servlet-mapping>
+</web-app>

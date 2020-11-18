@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons>
+	<person>
+		<name>孙悟空</name>
+		<age>1000</age>
+	</person>
+	<person>
+		<name>白骨精</name>
+		<age>2000</age>
+	</person>
+
+</persons>
